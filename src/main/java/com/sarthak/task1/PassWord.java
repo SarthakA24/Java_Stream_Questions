@@ -6,4 +6,5 @@
 package com.sarthak.task1;
 
 public class PassWord {
+    private String passWord;
 }
