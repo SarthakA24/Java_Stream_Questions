@@ -5,6 +5,8 @@
  */
 package com.sarthak.task1;
 
+import java.util.Objects;
+
 public class Student {
     private byte rollNumber;
     private String firstName;
@@ -29,5 +31,18 @@ public class Student {
                 ", lastName='" + lastName + '\'' +
                 ", currentYear=" + currentYear +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Student)) return false;
+        Student student = (Student) o;
+        return rollNumber == student.rollNumber && currentYear == student.currentYear && firstName.equals(student.firstName) && lastName.equals(student.lastName);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(rollNumber, firstName, lastName, currentYear);
     }
 }
