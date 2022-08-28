@@ -6,4 +6,8 @@
 package com.sarthak.task1;
 
 public class Student {
+    private byte rollNumber;
+    private String firstName;
+    private String lastName;
+    private byte currentYear;
 }
