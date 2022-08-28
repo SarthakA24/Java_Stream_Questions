@@ -20,4 +20,14 @@ public class Student {
         this.lastName = lastName;
         this.currentYear = currentYear;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "rollNumber=" + rollNumber +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", currentYear=" + currentYear +
+                '}';
+    }
 }
