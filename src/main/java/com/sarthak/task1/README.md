@@ -32,4 +32,4 @@ Create a separate execution java class called Main.java and call both the method
 
 ### Task Image
 
-<img src="src/main/resources/task1/task1.PNG">
+<img src="https://github.com/SarthakA24/Java_Stream_Questions/blob/master/src/main/resources/task1/task1.PNG">
