@@ -33,6 +33,38 @@ public class Student {
                 '}';
     }
 
+    public byte getRollNumber() {
+        return rollNumber;
+    }
+
+    public void setRollNumber(byte rollNumber) {
+        this.rollNumber = rollNumber;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public byte getCurrentYear() {
+        return currentYear;
+    }
+
+    public void setCurrentYear(byte currentYear) {
+        this.currentYear = currentYear;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
