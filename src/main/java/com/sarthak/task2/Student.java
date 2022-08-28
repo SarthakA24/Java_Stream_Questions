@@ -6,4 +6,8 @@
 package com.sarthak.task2;
 
 public class Student {
+    private byte rollNumber;
+    private String name;
+    private long guardiansContactNumber;
+    private double marks;
 }
