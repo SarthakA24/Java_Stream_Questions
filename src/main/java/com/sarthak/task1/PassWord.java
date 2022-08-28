@@ -7,4 +7,11 @@ package com.sarthak.task1;
 
 public class PassWord {
     private String passWord;
+
+    public PassWord() {
+    }
+
+    public PassWord(String passWord) {
+        this.passWord = passWord;
+    }
 }
