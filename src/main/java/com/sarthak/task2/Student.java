@@ -20,4 +20,36 @@ public class Student {
         this.guardiansContactNumber = guardiansContactNumber;
         this.marks = marks;
     }
+
+    public byte getRollNumber() {
+        return rollNumber;
+    }
+
+    public void setRollNumber(byte rollNumber) {
+        this.rollNumber = rollNumber;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public long getGuardiansContactNumber() {
+        return guardiansContactNumber;
+    }
+
+    public void setGuardiansContactNumber(long guardiansContactNumber) {
+        this.guardiansContactNumber = guardiansContactNumber;
+    }
+
+    public double getMarks() {
+        return marks;
+    }
+
+    public void setMarks(double marks) {
+        this.marks = marks;
+    }
 }
