@@ -10,4 +10,14 @@ public class Student {
     private String name;
     private long guardiansContactNumber;
     private double marks;
+
+    public Student() {
+    }
+
+    public Student(byte rollNumber, String name, long guardiansContactNumber, double marks) {
+        this.rollNumber = rollNumber;
+        this.name = name;
+        this.guardiansContactNumber = guardiansContactNumber;
+        this.marks = marks;
+    }
 }
