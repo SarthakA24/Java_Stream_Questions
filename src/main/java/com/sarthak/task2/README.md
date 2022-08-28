@@ -29,3 +29,9 @@ Create a java class file called `Student.java`. The `Student.java` class should 
    HashSet of students in an increasing manner of their marks. Since the marks are primitive double type, you are
    supposed to use their natural ordering. If two students have same marks, use class roll number.
    Create a separate execution java class called Main.java and call both the methods given above!
+
+---
+
+### Task Image
+
+<img src="https://github.com/SarthakA24/Java_Stream_Questions/blob/master/src/main/resources/task2/task2.PNG">
