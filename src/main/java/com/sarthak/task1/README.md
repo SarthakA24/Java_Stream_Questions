@@ -27,3 +27,9 @@ Create a java class file called PortalCredentialsCreator.java. The class should 
    a password should be a random string of length 8-20.
 
 Create a separate execution java class called Main.java and call both the methods given above!
+
+---
+
+### Task Image
+
+<img src="src/main/resources/task1/task1.PNG">
