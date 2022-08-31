@@ -10,4 +10,14 @@ public class Employee {
     private String name;
     private double salary;
     private byte numberOfLeavesTaken;
+
+    public Employee(short id, String name, double salary, byte numberOfLeavesTaken) {
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+        this.numberOfLeavesTaken = numberOfLeavesTaken;
+    }
+
+    public Employee() {
+    }
 }
