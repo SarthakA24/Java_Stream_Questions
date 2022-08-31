@@ -5,6 +5,8 @@
  */
 package com.sarthak.task3;
 
+import java.util.Objects;
+
 public class Employee {
     private short id;
     private String name;
@@ -51,5 +53,28 @@ public class Employee {
 
     public void setNumberOfLeavesTaken(byte numberOfLeavesTaken) {
         this.numberOfLeavesTaken = numberOfLeavesTaken;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", salary=" + salary +
+                ", numberOfLeavesTaken=" + numberOfLeavesTaken +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Employee)) return false;
+        Employee employee = (Employee) o;
+        return getId() == employee.getId() && Double.compare(employee.getSalary(), getSalary()) == 0 && getNumberOfLeavesTaken() == employee.getNumberOfLeavesTaken() && getName().equals(employee.getName());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId(), getName(), getSalary(), getNumberOfLeavesTaken());
     }
 }
