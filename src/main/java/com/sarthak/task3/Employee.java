@@ -6,4 +6,8 @@
 package com.sarthak.task3;
 
 public class Employee {
+    private short id;
+    private String name;
+    private double salary;
+    private byte numberOfLeavesTaken;
 }
